@@ -1,0 +1,19 @@
+cabal-version:      3.4
+name:               project-euler
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+author:             Florian Walter
+maintainer:         nairolf.retlaw@gmail.com
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable project-euler
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   app
+    default-language: GHC2021
