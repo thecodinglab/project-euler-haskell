@@ -18,6 +18,13 @@ executable project-euler
     hs-source-dirs:   app
     default-language: GHC2021
 
+executable 1-sum-multiple-3-5
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/1-sum-multiple-3-5
+    default-language: GHC2021
+
 executable 13-large-sum
     import:           warnings
     main-is:          Main.hs
