@@ -81,6 +81,13 @@ executable 10-sum-of-primes
     hs-source-dirs:   problems/10-sum-of-primes
     default-language: GHC2021
 
+executable 12-triangular-numbers
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0, integer-roots ^>= 1.0.2.0
+    hs-source-dirs:   problems/12-triangular-numbers
+    default-language: GHC2021
+
 executable 13-large-sum
     import:           warnings
     main-is:          Main.hs
