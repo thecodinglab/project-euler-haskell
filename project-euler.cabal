@@ -32,6 +32,13 @@ executable 3-prime-factor
     hs-source-dirs:   problems/3-prime-factor
     default-language: GHC2021
 
+executable 4-palindromic-number
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/4-palindromic-number
+    default-language: GHC2021
+
 executable 13-large-sum
     import:           warnings
     main-is:          Main.hs
