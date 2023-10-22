@@ -15,63 +15,63 @@ executable 1-sum-multiple-3-5
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/1-sum-multiple-3-5
+    hs-source-dirs:   problems/01-sum-multiple-3-5
     default-language: GHC2021
 
 executable 2-sum-of-fib
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/2-sum-of-fib
+    hs-source-dirs:   problems/01-sum-of-fib
     default-language: GHC2021
 
 executable 3-prime-factor
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/3-prime-factor
+    hs-source-dirs:   problems/01-prime-factor
     default-language: GHC2021
 
 executable 4-palindromic-number
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/4-palindromic-number
+    hs-source-dirs:   problems/01-palindromic-number
     default-language: GHC2021
 
 executable 5-smallest-multiple
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0, containers ^>=0.7
-    hs-source-dirs:   problems/5-smallest-multiple
+    hs-source-dirs:   problems/01-smallest-multiple
     default-language: GHC2021
 
 executable 6-sum-square-difference
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/6-sum-square-difference
+    hs-source-dirs:   problems/01-sum-square-difference
     default-language: GHC2021
 
 executable 7-nth-prime
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/7-nth-prime
+    hs-source-dirs:   problems/01-nth-prime
     default-language: GHC2021
 
 executable 8-largest-product-in-series
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/8-largest-product-in-series
+    hs-source-dirs:   problems/01-largest-product-in-series
     default-language: GHC2021
 
 executable 9-pythagorean-triplet
     import:           warnings
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0
-    hs-source-dirs:   problems/9-pythagorean-triplet
+    hs-source-dirs:   problems/09-pythagorean-triplet
     default-language: GHC2021
 
 executable 10-sum-of-primes
