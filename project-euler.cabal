@@ -46,6 +46,13 @@ executable 5-smallest-multiple
     hs-source-dirs:   problems/5-smallest-multiple
     default-language: GHC2021
 
+executable 6-sum-square-difference
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/6-sum-square-difference
+    default-language: GHC2021
+
 executable 13-large-sum
     import:           warnings
     main-is:          Main.hs
