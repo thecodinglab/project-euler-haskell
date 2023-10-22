@@ -25,6 +25,13 @@ executable 1-sum-multiple-3-5
     hs-source-dirs:   problems/1-sum-multiple-3-5
     default-language: GHC2021
 
+executable 2-sum-of-fib
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/2-sum-of-fib
+    default-language: GHC2021
+
 executable 13-large-sum
     import:           warnings
     main-is:          Main.hs
