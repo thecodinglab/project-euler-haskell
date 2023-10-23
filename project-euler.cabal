@@ -123,6 +123,13 @@ executable 23-non-abundant-sums
     hs-source-dirs:   problems/23-non-abundant-sums
     default-language: GHC2021
 
+executable 24-lexicographic-permutations
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/24-lexicographic-permutations
+    default-language: GHC2021
+
 executable 25-n-digit-fibonacci-number
     import:           warnings
     main-is:          Main.hs
