@@ -150,3 +150,10 @@ executable 27-quadratic-primes
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/27-quadratic-primes
     default-language: GHC2021
+
+executable 29-distinct-powers
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/29-distinct-powers
+    default-language: GHC2021
