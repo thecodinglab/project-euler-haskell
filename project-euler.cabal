@@ -101,3 +101,10 @@ executable 20-factorial-digit-sum
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/20-factorial-digit-sum
     default-language: GHC2021
+
+executable 21-amicable-numbers
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/21-amicable-numbers
+    default-language: GHC2021
