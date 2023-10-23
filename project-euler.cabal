@@ -136,3 +136,10 @@ executable 25-n-digit-fibonacci-number
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/25-n-digit-fibonacci-number
     default-language: GHC2021
+
+executable 26-reciprocal-cycles
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/26-reciprocal-cycles
+    default-language: GHC2021
