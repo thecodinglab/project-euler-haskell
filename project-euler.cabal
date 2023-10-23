@@ -157,3 +157,10 @@ executable 29-distinct-powers
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/29-distinct-powers
     default-language: GHC2021
+
+executable 30-digit-fifth-powers
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/30-digit-fifth-powers
+    default-language: GHC2021
