@@ -171,3 +171,10 @@ executable 31-coin-sum
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/31-coin-sum
     default-language: GHC2021
+
+executable 32-pandigital-products
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/32-pandigital-products
+    default-language: GHC2021
