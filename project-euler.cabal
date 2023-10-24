@@ -178,3 +178,10 @@ executable 32-pandigital-products
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/32-pandigital-products
     default-language: GHC2021
+
+executable 33-digit-cancelling-fractions
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   problems/33-digit-cancelling-fractions
+    default-language: GHC2021
