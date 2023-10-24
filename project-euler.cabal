@@ -185,3 +185,10 @@ executable 33-digit-cancelling-fractions
     build-depends:    base ^>=4.17.2.0
     hs-source-dirs:   problems/33-digit-cancelling-fractions
     default-language: GHC2021
+
+executable 54-poker
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0, containers ^>=0.7
+    hs-source-dirs:   problems/54-poker
+    default-language: GHC2021
