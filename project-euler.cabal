@@ -11,6 +11,14 @@ extra-doc-files:    CHANGELOG.md
 common warnings
     ghc-options: -Wall
 
+library
+    exposed-modules:
+      ProjectEuler.Prime
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   lib
+    default-language: GHC2021
+
+
 executable 1-sum-multiple-3-5
     import:           warnings
     main-is:          Main.hs
@@ -191,4 +199,11 @@ executable 54-poker
     main-is:          Main.hs
     build-depends:    base ^>=4.17.2.0, containers ^>=0.7
     hs-source-dirs:   problems/54-poker
+    default-language: GHC2021
+
+executable 60-prime-pair-sets
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0, project-euler
+    hs-source-dirs:   problems/60-prime-pair-sets
     default-language: GHC2021
