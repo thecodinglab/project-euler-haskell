@@ -201,6 +201,13 @@ executable 54-poker
     hs-source-dirs:   problems/54-poker
     default-language: GHC2021
 
+executable 51-prime-digit-replacement
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0, project-euler
+    hs-source-dirs:   problems/51-prime-digit-replacement
+    default-language: GHC2021
+
 executable 60-prime-pair-sets
     import:           warnings
     main-is:          Main.hs
