@@ -214,3 +214,10 @@ executable 60-prime-pair-sets
     build-depends:    base ^>=4.17.2.0, project-euler
     hs-source-dirs:   problems/60-prime-pair-sets
     default-language: GHC2021
+
+executable 84-monopoly-odds
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.0, random ^>=1.2.1.1, project-euler
+    hs-source-dirs:   problems/84-monopoly-odds
+    default-language: GHC2021
